@@ -444,7 +444,7 @@ img {
   }
 
   .home__img img {
-    width: 300px !important;
+    width: 280px !important;
     height: 280px !important;
     filter: drop-shadow(1rem 0.8rem 2rem rgba(7, 7, 7, 0.76));
   }
