@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Mahesh Portfolio website"/>
+    <meta property="og:image" content="https://freefolio.web.app/images/indify.png"/>
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <title>Mahesh Portfolio website</title>
+    <!-- Title Logo -->
+    <link
+      rel="shortcut icon"
+      href="/assets/img/m-red-logo-icon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- fontawesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <div class="home__greeting" data-aos="fade-up">
+            <span>HELLO,</span>
+          </div>
+          <div class="home__title" data-aos="fade-up">
+            <h1>I'm Mahesh</h1>
+          </div>
+          <div class="home__career" data-aos="fade-up">
+            <p>Data Analyst</p>
+          </div>
+          <div class="home__description" data-aos="fade-up">
+            <p>
+              Finance grad & aspiring data analyst, skilled in data analytics, financial analysis & statistical modeling. 
+              Proficient in Python, Excel, SQL & Power BI. 
+              Let's connect to drive business outcomes with data!
+            </p>
+          </div>
+          <div class="home__button">
+            <a href="#" download="">
+              <button class="home__download" data-aos="fade-up">RESUME</button>
+            </a>
+          </div>
+    
+          <div class="projects">
+            <div class="project">
+                <img src="assets/img/python-icon.png" alt="Python">
+                <p>Python Project</p>
+                <div class="project-number" id="python-display">0</div>
+              </div>
+            <div class="project">
+                <img src="assets/img/powerbi-icon.png" alt="Power BI">
+                <p>Power BI Project</p>
+                <div class="project-number" id="powerbi-display">0</div>
+            </div>
+            <div class="project">
+                <img src="/assets/img/sql-server.png" alt="SQL">
+                <p>SQL Projects</p>
+                <div class="project-number" id="sql-display">0</div>
+            </div>
+    
+          <div class="profile-container">
+            <div class="home__img">
+              <img src="/assets/img/profile_web_img_3.png" alt="Profile Image" class="home-image" />
+            </div>
+            
+            <!-- Social Icons -->
+            <div class="home__social">
+              <a href="https://github.com/MaheshYoganandan" class="home__icon" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/maheshyoganandan/" target="_blank" class="home__icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.goodreads.com/user/show/123548013-mahesh" target="_blank" class="home__icon">
+                <i class="fab fa-goodreads"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+    </section>
+    
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="section-title" data-aos="fade-up">SKILLS</h2>
+      <div class="skills__container bd-container bd-grid">
+        <div class="skills__box technical-skills" data-aos="fade-up">
+          <h3 class="skills__title">Technical Skills</h3>
+          <div class="skills__list">
+            <div class="column">
+              <ul>
+                <li><img src="/assets/icon/data-analysis-icon.png" alt="Data Analysis" class="skill-icon">Data Analysis</li>
+                <li><img src="/assets/icon/microsoft-excel-icon.png" alt="Excel" class="skill-icon">Excel</li>
+                <li><img src="/assets/icon/python_icon.png" alt="Python" class="skill-icon">Python</li>
+                <li><img src="/assets/icon/data-scraping-icon.png" alt="Data Scraping" class="skill-icon">Data Scraping</li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li><img src="/assets/icon/data-mining-icon.png" alt="Data Mining" class="skill-icon">Data Mining</li>
+                <li><img src="/assets/icon/sql-icon.png" alt="SQL" class="skill-icon">SQL</li>
+                <li><img src="/assets/icon/postgresql-icon.png" alt="PostgreSQL" class="skill-icon">PostgreSQL</li>
+                <li><img src="/assets/icon/data-viz-icon.png" alt="Data Visualization" class="skill-icon">Data Visualization</li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li><img src="/assets/icon/power-bi-icon.png" alt="Power BI" class="skill-icon">Power BI</li>
+                <li><img src="/assets/icon/statistical-analysis-icon.png" alt="Statistical Analysis" class="skill-icon">Statistical Analysis</li>
+                <li><img src="/assets/icon/fmva-icon.png" alt="FMVA" class="skill-icon">FMVA</li>
+                <li><img src="/assets/icon/business-intelligence-icon.png" alt="Business Intelligence" class="skill-icon">Business Intelligence</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="skills__box soft-skills" data-aos="fade-up">
+          <h3 class="skills__title">Soft Skills</h3>
+          <div class="skills__list">
+            <div class="column">
+              <ul>
+                <li><img src="/assets/icon/problem-solving-icon.png" alt="Problem Solving" class="skill-icon">Problem Solving</li>
+                <li><img src="assets/icon/communication-icon.png" alt="Effective Communication" class="skill-icon">Effective Communication</li>
+                <li><img src="assets/icon/attention-to-detail-icon.png" alt="Attention to Detail" class="skill-icon">Attention to Detail</li>
+                <li><img src="assets/icon/critical-thinking-icon.png" alt="Critical Thinking" class="skill-icon">Critical Thinking</li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li><img src="assets/icon/adaptability-icon.png" alt="Adaptability" class="skill-icon">Adaptability</li>
+                <li><img src="assets/icon/analytical-thinking-icon.png" alt="Analytical Mindset" class="skill-icon">Analytical Mindset</li>
+                <li><img src="assets/icon/presentation-skill.png" alt="Presentation Skills" class="skill-icon">Presentation Skills</li>
+                <li><img src="assets/icon/business-acumen-icon.png" alt="Business Acumen" class="skill-icon">Business Acumen</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <h2 class="section-title" data-aos="fade-up">SERVICES</h2>
+      <div class="services__container bd-container bd-grid">
+        <div class="services__data" data-aos="fade-up">
+          <div class="services__img">
+            <img src="./assets/img/3d-casual-life-laptop-and-charts-1.png" alt="" />
+          </div>
+          <h3 class="services__title">Data Analysis & Insights.</h3>
+          <p class="services__description">
+            Transform data into actionable insights.<br><br>
+            <span class="tools">Tools: Python, Excel, SQL, PostgreSQL, Tableau, Power BI</span>
+          </p>
+        </div>
+
+        <div class="services__data" data-aos="fade-up">
+          <div class="services__img">
+            <img src="./assets/img/3d-casual-life-chart-window-with-analytics.png" alt="" />
+          </div>
+          <h3 class="services__title">Data Visualization & Dashboarding.</h3>
+          <p class="services__description">
+            Visualize data with interactive dashboards.<br><br>
+            <span class="tools">Tools: Power BI, Tableau, Excel</span>
+          </p>
+        </div>
+
+        <div class="services__data" data-aos="fade-up">
+          <div class="services__img">
+            <img src="./assets/img/3d-casual-life-text-program-on-computer-screen.png" alt="" />
+          </div>
+          <h3 class="services__title">Data Scraping & Mining.</h3>
+          <p class="services__description">
+            Data extraction & mining for business insights.<br><br>
+            <span class="tools">Tools: Python, Selenium, SQL</span>
+          </p>
+        </div>
+
+        <div class="services__data" data-aos="fade-up">
+          <div class="services__img">
+            <img src="./assets/img/3d-casual-life-data-analysis.png" alt="" />
+          </div>
+          <h3 class="services__title">Statistical Analysis & Modeling.</h3>
+          <p class="services__description">
+            Statistical analysis for predictive insights.<br><br>
+            <span class="tools">Tools: Python, Excel, SQL</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="section-title" data-aos="fade-up">PORTFOLIO</h2>
+        <div class="portfolio__container bd-container bd-grid">
+          <!-- Project items will be rendered here -->
+          <div class="project__item" data-aos="fade-up" id="sql">
+            <img src="assets/project-thumbnail/sql-credit-card-analysis-project.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">Credit card Revenue analysis</h3>
+            <p class="project__description">Analyzing India's spending habits to uncover growth opportunities and 
+              optimize marketing strategies for business success and customer satisfaction.</p>
+            <p class="project__skills">Tools: <span>SQL</span> </p>
+            <a href="https://github.com/MaheshYoganandan/SQL_Projects/tree/main/credit-card-analysis-sql-project" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="sql">
+            <img src="assets/project-thumbnail/sql-hsp-project-thumbnail.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">Hospital Recent Performance</h3>
+            <p class="project__description">Extracted key insights from complex hospital data using SQL expertise, 
+              driving data-informed decisions for better patient outcomes and business success.</p>
+            <p class="project__skills">Tools: <span>SQL</span> </p>
+            <a href="https://github.com/MaheshYoganandan/SQL_Projects/tree/main/Massachusetts-general-hsp-sql-project" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="python">
+            <img src="assets/project-thumbnail/python-magicbricks-project-thumbnail.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">Realestate Data Scraper</h3>
+            <p class="project__description">Extracted property details, prices, and locations from 
+              Magic Bricks using web scraping, cleaned data to reveal valuable real estate insights and trends.</p>
+            <p class="project__skills">Tools: <span>Python</span> <span>Selenium</span></p>
+            <a href="https://github.com/MaheshYoganandan/Python_Projects/tree/main/webscraping-realestate-data-project" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="python">
+            <img src="assets/project-thumbnail/imdb-web-scraping-project-thumbnail.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">IMDb Movie Data Scraper</h3>
+            <p class="project__description">Build IMDb data Scraper for 100,000+ movie data using Selenium & Beautiful Soup, 
+              cleaned & stored using Jupyter & Pandas for scalable insights.</p>
+            <p class="project__skills">Tools: <span>Python</span> <span>Selenium</span> <span>Beautifulsoup</span> </p>
+            <a href="https://github.com/MaheshYoganandan/Python_Projects/tree/main/webscraping-imdb-movie-data-scraper-project" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="python">
+            <img src="assets/project-thumbnail/e-commerce-eda-thumbnail.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">Ecommerce Data Analysis</h3>
+            <p class="project__description">Analyzed ecommerce dataset, 
+              uncovering insights, patterns, and relationships, visualized using various libraries.</p>
+            <p class="project__skills">Tools: <span>Python</span> <span>Pandas</span> <span>Seaborn</span></p>
+            <a href="https://github.com/MaheshYoganandan/Python_Projects/tree/main/python-retail-data-analysis-project" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="powerbi">
+            <img src="assets/project-thumbnail/powerbi_movie_rental.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">Movie Rental Data Analysis</h3>
+            <p class="project__description">Movie Rental Analysis: A Power BI dashboard analyzing key metrics of a 
+              movie rental business to provide actionable insights into customer behavior, rental trends, and business performance.</p>
+            <p class="project__skills">Tools: <span>Power BI</span> <span>DAX</span> <span>Excel</span> </p>
+            <a href="https://github.com/MaheshYoganandan/Power_BI_Projects/tree/main/movie-rental-dashbords" class="project__link">View Project</a>
+          </div>
+          <div class="project__item" data-aos="fade-up" id="powerbi">
+            <img src="assets/project-thumbnail/power_bi_adventure_works_project.png" alt="Project 2" class="project__img">
+            <h3 class="project__title">AdventureWorks Sales Performance Dashboard</h3>
+            <p class="project__description">A Power BI project analyzing sales performance and 
+              customer insights to drive business strategies for the AdventureWorks retail company.</p>
+            <p class="project__skills">Tools: <span>Power BI</span> <span>DAX</span> <span>Excel</span> </p>
+            <a href="https://github.com/MaheshYoganandan/Power_BI_Projects/tree/main/adventure-words-dashbord" class="project__link">View Project</a>
+          </div>
+        </div>
+        <div class="load-more">
+          <button class="load-more__btn" id="load-more">Load More</button>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <h2 class="footer-title">Get in Touch</h2>
+        <p class="footer-text">
+          Looking for a new opportunity to apply my analytical skills.
+          Let's connect to explore how I can help drive buiness outcomes with data. 
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://github.com/MaheshYoganandan" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Mahesh__Y" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.goodreads.com/user/show/123548013-mahesh" class="social-icon"><i class="fab fa-goodreads"></i></a>
+          <a href="https://www.instagram.com/iam_mahi_/" class="social-icon"><i class="fab fa-instagram"></i></a>
+
+
+        </div>
+        <div class="footer-contact">
+          <a href="https://www.linkedin.com/in/maheshyoganandan/" class="footer-card">
+            <div class="card-icon"><i class="fab fa-linkedin-in"></i></div>
+            <span>linkedin</span>
+          </a>
+          <a href="mailto:kamalmahesh.mk2@gamil.com" class="footer-card">
+            <div class="card-icon"><i class="fas fa-envelope"></i></div>
+            <span>kamalmahesh.mk2@gamil.com</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- JS script -->
+    <script src="./assets/js/script.js"></script>
+    <!-- AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>       
+      AOS.init({
+        once: true,
+        delay: 0
+      });
+    </script>
+  </body>
+</html>
